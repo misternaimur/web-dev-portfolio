@@ -1,0 +1,144 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* share style */
+.text-primary{
+    color:#FD6E0A;
+}
+.secondary-bg{
+    background-color:antiquewhite;
+}
+
+/* header */
+.header
+{
+    background-image: url(/images/developer.png),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* Nav Style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size:45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dark1{
+    color:black;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+/* Banner-CSS */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+
+}
+.banner-welcome{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 86px
+}
+.banner-profile-picture{
+    width: 580px;
+    
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 18px;
+    color:#FD6E0A;
+
+}
+
+.text-center{
+    text-align: center;
+}
+/* main style */
+main{
+    max-width:1140px;
+    margin: 0 auto;
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+
+}
+/* about style */
+
+.about{
+    border-radius: 10px;
+    padding: 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.item-sescription{
+    font-weight: bold;
+}
+
+.skills-container{
+    display: flex;
+    gap:24px;
+
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px;
+}
